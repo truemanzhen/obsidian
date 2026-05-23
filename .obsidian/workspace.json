@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RocketMQ/06-延迟消息/21-延迟消息设计.md",
-                "mode": "preview",
+                "file": "RocketMQ/01-研究主线与领域模型/03-消息协议与类体系.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "21-延迟消息设计"
+              "title": "03-消息协议与类体系"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#面试高频",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,46 +194,47 @@
       "bases:新建数据库": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "notemd:打开 Notemd 侧边栏": false
     }
   },
   "active": "9aae498bcc730943",
   "lastOpenFiles": [
+    "RocketMQ/01-研究主线与领域模型/02-NameServer路由设计.md",
+    "RocketMQ/05-消息类型与高级特性/44-OpenMessaging标准接口.md",
+    "03-接入层与通信栈.md",
+    "RocketMQ/03-接入层与通信栈/15-ProxyMode.md",
+    "RocketMQ/03-接入层与通信栈/14-ProxyStartup.md",
+    "RocketMQ/03-接入层与通信栈/13-Remoting网络层设计.md",
+    "RocketMQ/01-研究主线与领域模型/03-消息协议与类体系.md",
+    "RocketMQ/01-研究主线与领域模型/01-RocketMQ 5.x架构与领域模型总览.md",
     "RocketMQ/00-目录索引.md",
-    "RocketMQ/08-长轮询机制/23-长轮询机制详解.md",
-    "RocketMQ/08-长轮询机制",
-    "RocketMQ/09-NameServer路由/24-NameServer路由设计.md",
-    "RocketMQ/09-NameServer路由",
-    "RocketMQ/10-HA主从同步/25-HA主从同步设计.md",
-    "RocketMQ/10-HA主从同步",
-    "RocketMQ/11-Controller与选主/26-DLedger与Raft机制.md",
-    "RocketMQ/11-Controller与选主",
-    "RocketMQ/12-客户端设计/27-客户端设计详解.md",
-    "RocketMQ/12-客户端设计",
-    "RocketMQ/13-消息过滤/28-消息过滤机制.md",
-    "RocketMQ/13-消息过滤",
-    "RocketMQ/assets",
-    "RocketMQ/01-Proxy启动流程/03-ConfigurationManager.md",
-    "RocketMQ/01-Proxy启动流程/02-ProxyMode.md",
-    "RocketMQ/01-Proxy启动流程/01-ProxyStartup.md",
-    "RocketMQ/01-Proxy启动流程",
-    "RocketMQ/02-gRPC服务层/06-GrpcMessagingApplication.md",
-    "RocketMQ/02-gRPC服务层/05-GrpcServer.md",
-    "RocketMQ/02-gRPC服务层/04-GrpcServerBuilder.md",
-    "RocketMQ/02-gRPC服务层",
-    "RocketMQ/03-Pipeline模式/08-Interceptor链.md",
-    "RocketMQ/03-Pipeline模式/07-RequestPipeline.md",
-    "RocketMQ/03-Pipeline模式",
-    "RocketMQ/04-存储层设计/15-IndexFile索引设计.md",
-    "RocketMQ/04-存储层设计/14-刷盘机制.md",
-    "RocketMQ/04-存储层设计/13-ReputMessageService异步分发.md",
-    "RocketMQ/04-存储层设计/12-ConsumeQueue设计.md",
-    "RocketMQ/04-存储层设计/11-CommitLog写入流程.md",
-    "RocketMQ/04-存储层设计/10-MappedFile与内存映射.md",
-    "RocketMQ/04-存储层设计/09-存储架构总览.md",
-    "RocketMQ/05-Proxy消息处理链路/20-Push消费与Pull消费.md",
-    "RocketMQ/05-Proxy消息处理链路/19-Pop消费模式详解.md",
-    "RocketMQ/05-Proxy消息处理链路/18-ReceiveMessageActivity.md",
-    "RocketMQ/05-Proxy消息处理链路/17-SendMessageActivity.md"
+    "RocketMQ/05-消息类型与高级特性/42-StaticTopic逻辑队列映射.md",
+    "32-ACL认证授权.md",
+    "RocketMQ/04-Broker处理与存储主链路/26-存储架构总览.md",
+    "RocketMQ/04-Broker处理与存储主链路/25-Broker核心处理器.md",
+    "RocketMQ/04-Broker处理与存储主链路/24-ReceiveMessageActivity.md",
+    "RocketMQ/07-存储引擎演进/58-冷数据消费控制.md",
+    "RocketMQ/08-高可用与运维治理/69-mqadmin-CLI架构.md",
+    "RocketMQ/08-高可用与运维治理/68-Admin工具与运维命令.md",
+    "RocketMQ/08-高可用与运维治理/67-Metrics可观测性.md",
+    "RocketMQ/08-高可用与运维治理/66-Broker与Subscription管理.md",
+    "RocketMQ/08-高可用与运维治理/65-ACL认证授权.md",
+    "RocketMQ/04-Broker处理与存储主链路/33-消息存储清理与回溯边界.md",
+    "RocketMQ/04-Broker处理与存储主链路/32-IndexFile索引设计.md",
+    "RocketMQ/08-高可用与运维治理/70-Container模式.md",
+    "RocketMQ/08-高可用与运维治理/39-Broker与Subscription管理.md",
+    "RocketMQ/09-附录与公共基础/72-MessageVersion与common工具.md",
+    "RocketMQ/09-附录与公共基础/71-前置知识与算法原理补充.md",
+    "RocketMQ/09-附录与公共基础",
+    "RocketMQ/08-高可用与运维治理",
+    "RocketMQ/07-存储引擎演进",
+    "RocketMQ/06-5.x消费演进与Lite专题",
+    "RocketMQ/05-消息类型与高级特性",
+    "RocketMQ/04-Broker处理与存储主链路",
+    "RocketMQ/03-接入层与通信栈",
+    "RocketMQ/02-客户端与基础消费模型",
+    "RocketMQ/01-研究主线与领域模型",
+    "RocketMQ/08-长轮询机制"
   ]
 }
